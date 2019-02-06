@@ -6,11 +6,11 @@ Somos una empresa joven que tiene por objeto la prestación de servicios de alim
 
 ## Uso
 
-### Basic Usage
+### Uso Basico
 
-After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
+Después de la descarga, simplemente edite los archivos HTML y CSS incluidos con la plantilla en su editor de texto favorito para realizar cambios. Estos son los únicos archivos de los que debe preocuparse, ¡puede ignorar todo lo demás! Para obtener una vista previa de los cambios que realice en el código, puede abrir el archivo `index.html` en su navegador web.
 
-### Advanced Usage
+### Uso Advanzado
 
 Despues de la instalación, correr `npm install` y despues correr `gulp dev` que abrirá una vista previa de la plantilla en su navegador predeterminado, vigilará los cambios en los archivos de la plantilla central y volverá a cargar el navegador cuando se guarden los cambios. Puedes ver el `gulpfile.js` para ver qué tareas están incluidas con el entorno dev.
 
