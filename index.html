@@ -15,14 +15,15 @@
 
 
   <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
   <!-- Custom styles for this template -->
-  <link rel="stylesheet" href="css/agency.min.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link href="css/agency.min.css" rel="stylesheet" >
+  <link href="css/style.css" rel="stylesheet">
 
 </head>
 
@@ -100,19 +101,21 @@
 
   <!-- Header -->
   <header class="masthead">
-    <div>
+    <div class="container">
       <div class="col-12">
-        <ul style="float: right; padding-right: 1px; padding-top: 55px;">
-          <li>
-            <a class="icon-twitter social-button color" href="http://twitter.com/josealonso2209" target="_blank"></a>
-          </li>
-          <li class="list-inline-item">
-            <a href="https://www.facebook.com" target="_blank">
-              <i class="fab fa-facebook-f"></i>
+        <ul class="social-buttons"style="float: right; padding-right: 1px; padding-top: 55px;">
+          <li class="list-inline-item" >
+              <a href="https://www.facebook.com" target="_blank"style="background:rgb(59, 89, 152)">
+                <i class="fab fa-facebook-f"></i>
             </a>
           </li>
           <li class="list-inline-item">
-            <a href="https://web.whatsapp.com/" target="_blank">
+              <a href="https://www.instagram.com" target="_blank"style="background:rgb(228, 64, 95)">
+                <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://web.whatsapp.com/" target="_blank"style="background:rgb(37, 211, 102)">
               <i class="fab fa-whatsapp"></i>
             </a>
           </li>
@@ -185,7 +188,7 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/img1.jpg" alt="">
+            <img class="img-fluid" src="img/img11.jpg" alt="">
           </a>
           <div class="portfolio-caption">
             <h4>Evento</h4>
@@ -227,7 +230,7 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/img4.jpg" alt="">
+            <img class="img-fluid" src="img/img2.jpg" alt="">
           </a>
           <div class="portfolio-caption">
             <h4>Evento</h4>
@@ -235,13 +238,13 @@
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/img1.jpg" alt="">
+            <img class="img-fluid" src="img/img11.jpg" alt="">
           </a>
           <div class="portfolio-caption">
             <h4>Evento</h4>
@@ -249,13 +252,13 @@
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/img1.jpg" alt="">
+            <img class="img-fluid" src="img/img3.jpg" alt="">
           </a>
           <div class="portfolio-caption">
             <h4>Evento</h4>
@@ -265,82 +268,6 @@
       </div>
     </div>
   </section>
-
-  <!-- Team
-    <section class="bg-light" id="team">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Nuestro Equipo</h2>
-            <h3 class="section-subheading text-muted">.</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-4">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
-              <h4>Diana Navarro</h4>
-              <p class="text-muted">Gerente</p>
-              <ul class="list-inline social-buttons">
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-instagram"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="">
-              <h4>Jefferson Navarro</h4>
-              <p class="text-muted">Lider Tecnico</p>
-              <ul class="list-inline social-buttons">
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-instagram"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/3.jpg" alt="">
-              <h4>Diana Navarro</h4>
-              <p class="text-muted">Gerente</p>
-              <ul class="list-inline social-buttons">
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-instagram"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <p class="large text-muted">Contamos con el mejor equipo interdiciplinario, nos destacamos por ser una compañia con formación integral.</p>
-          </div>
-        </div>
-      </div>
-    </section> -->
 
   <!-- Clients -->
   <section class="py-5">
@@ -419,6 +346,200 @@
     </div>
   </section>
 
+  <!-- Events Modals -->
+
+  <!-- Modal 1 -->
+  <div class="modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Nombre del evento</h2>
+                <img class="img-fluid d-block mx-auto" src="img/img11.jpg" alt="">
+                <ul class="list-inline">
+                    <li>Fecha: Enero 2017</li>
+                    <li>Cliente: Lines</li>
+                    <li>Categoria: Brindis</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fas fa-times"></i>
+                    Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2 -->
+  <div class="modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Nombre del evento</h2>
+                <img class="img-fluid d-block mx-auto" src="img/img2.jpg" alt="">
+                <ul class="list-inline">
+                    <li>Fecha: Enero 2017</li>
+                    <li>Cliente: Lines</li>
+                    <li>Categoria: Brindis</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fas fa-times"></i>
+                    Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 3 -->
+  <div class="modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Nombre del evento</h2>
+                <img class="img-fluid d-block mx-auto" src="img/img3.jpg" alt="">
+                <ul class="list-inline">
+                    <li>Fecha: Enero 2017</li>
+                    <li>Cliente: Lines</li>
+                    <li>Categoria: Brindis</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fas fa-times"></i>
+                    Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 4 -->
+  <div class="modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h3 class="text-uppercase">Nombre del evento</h3>
+                <img class="img-fluid d-block mx-auto" src="img/img2.jpg" alt="">
+                <ul class="list-inline">
+                  <li>Fecha: Enero 2017</li>
+                  <li>Cliente: Lines</li>
+                  <li>Categoria: Brindis</li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 5 -->
+  <div class="modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Nombre del evento</h2>
+                <img class="img-fluid d-block mx-auto" src="img/img11.jpg" alt="">
+                <ul class="list-inline">
+                    <li>Fecha: Enero 2017</li>
+                    <li>Cliente: Lines</li>
+                    <li>Categoria: Brindis</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fas fa-times"></i>
+                    Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 6 -->
+  <div class="modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Nombre del evento</h2>
+                <img class="img-fluid d-block mx-auto" src="img/img3.jpg" alt="">
+                <ul class="list-inline">
+                    <li>Fecha: Enero 2017</li>
+                    <li>Cliente: Lines</li>
+                    <li>Categoria: Brindis</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fas fa-times"></i>
+                    Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
   <!-- Footer -->
   <footer class="footer">
     <div class="container">
@@ -457,10 +578,10 @@
         <div class="col-md-4">
           <ul class="list-inline quicklinks">
             <li class="list-inline-item">
-              <a href="#">Politicas de calidad</a>
+              <a href="#"style="color:black">Politicas de calidad</a>
             </li>
             <li class="list-inline-item">
-              <a href="#">Nosotros</a>
+              <a href="#"style="color:black">Nosotros</a>
             </li>
           </ul>
         </div>
