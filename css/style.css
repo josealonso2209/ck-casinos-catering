@@ -69,6 +69,10 @@ background-size: cover;
   background-color: #f0f0f0;
 }
 
+.footer p {
+  font-family: 'Open Sans',sans-serif;
+  font-size: .75rem;
+}
 
 svg {
   fill: currentColor;
@@ -79,20 +83,31 @@ svg {
 .footer {
   background-color: #EEE;
   margin-top: auto;
-  padding: 1.5rem;
+  /* padding: 1.5rem;
+  padding-bottom: 5px; */
 }
 @media (min-width: 45rem) {
   .footer {
     align-items: center;
     justify-content: space-between;
     padding: 3rem;
+    padding-bottom: 1px;
   }
 }
 .footer a {
   color: #ffffff;
   text-decoration: underline;
+  font-family: 'Open Sans',sans-serif;
+  font-size: .75rem;
 }
 
+.footer ul{
+  list-style:none;
+}
+
+.contact h2{
+  font-family: 'ITCAvantGardeStdBk, sans-serif';
+}
 .grid {
   /* display: flex; */
   flex-wrap: wrap;
@@ -223,4 +238,3 @@ padding: 80px 0px;
 .pad-xs {
 padding: 30px 0px;
 }
-.politcas
